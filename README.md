@@ -1,6 +1,9 @@
 # RasACam
 EAA Astronomy Camera
 --------------------
+
+[img]http://posec.astro.cz/images/Levna_kamera_RasACam/PIkamera3.jpg[/img]
+
 Review of the camera https://tinyurl.com/y48p6vm4 (Google translated)
 Instructions for running SW for RasACam (Raspberry Astronomy Camera)
 
