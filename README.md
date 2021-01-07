@@ -1,5 +1,6 @@
 # RasACam
 EAA Astronomy Camera
+--------------------
 Review of the camera https://tinyurl.com/y48p6vm4 (Google translated)
 Instructions for running SW for RasACam (Raspberry Astronomy Camera)
 
