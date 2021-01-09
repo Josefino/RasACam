@@ -8,7 +8,7 @@ fi
 zoom=$1
 
 echo "setting zoom" $zoom
-echo "Running for 120s"
+echo "Running for 60s"
 
 if [ $zoom -eq 0 ]
 then
