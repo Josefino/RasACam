@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Focus a camera
+################
+
 if [ $# -eq 0 ]
 then
 	echo "Awaiting parametr of resolution (0 or 1)" 1>&2

@@ -1,5 +1,8 @@
 import io, sys
 
+# Get revision of Raspberry model
+##################################
+
 def getrevision():
   # Extract board revision from cpuinfo file
   myrevision = "0000"

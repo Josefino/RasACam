@@ -1,10 +1,13 @@
 #!/bin/bash
+
+# Make a picture RAW
+####################
+
 if [ $# -eq 0 ]
 then
 	echo "Awaiting parameters - number of pictures and exposure in seconds" 1>&2
 	exit 1
 fi
-
 
 #zenity --warning --width=300 --height=150 --text="S T A R T  O F  S E Q U E N C E"
 

@@ -1,13 +1,17 @@
 #!/bin/bash
+
+# Make picture JPEG
+##################
+
 if [ $# -eq 0 ]
 then
-	echo "Awaiting parameters - number of pictures and exposure in seconds." 1>&2
+	echo "Awaiting parameters - number of pictures and exposure in seconds" 1>&2
 	exit 1
 fi
 
 number=$1
 exp=$2
-echo "number of pictures" $number "exposure in seconds" $exp"s"
+echo "number of pictures" $number "exposure in seconds"
 
 exp=$(($exp * 1000000))
 i=0

@@ -4,6 +4,9 @@ from guizero import App, Text, PushButton
 import sys, os
 from guizero import PushButton
 
+# Progress bar for capturing
+############################
+
 # Find CPU model of Raspberry
 def getrevision():
   # Extract board revision from cpuinfo file
