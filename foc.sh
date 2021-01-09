@@ -1,14 +1,14 @@
 #!/bin/bash
 if [ $# -eq 0 ]
 then
-	echo "Očekávám parametr rozlišení (0 nebo 1)" 1>&2
+	echo "Awaiting parametr of resolution (0 or 1)" 1>&2
 	exit 1
 fi
 
 zoom=$1
 
-echo "nastaven zoom" $zoom
-echo "Ostření spuštěno na max 120s"
+echo "setting zoom" $zoom
+echo "Running for 120s"
 
 if [ $zoom -eq 0 ]
 then
