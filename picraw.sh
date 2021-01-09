@@ -1,16 +1,16 @@
 #!/bin/bash
 if [ $# -eq 0 ]
 then
-	echo "Očekávám parametry - počet snímků a expozice v sekundách" 1>&2
+	echo "Awaiting parameters - number of pictures and exposure in seconds" 1>&2
 	exit 1
 fi
 
-#python3 Ventilator.py #spuštění řízení ventilátoru, teplota 15 st.C
+
 #zenity --warning --width=300 --height=150 --text="S T A R T  O F  S E Q U E N C E"
 
 number=$1
 exp=$2
-echo "počet snímků" $number "expozice" $exp"s"
+echo "number of pictures" $number "exposure in seconds" $exp"s"
 totalnumber=$(($number*$exp))
 python3 progressbar.py 1 $totalnumber&
 exp=$(($exp * 1000000))
