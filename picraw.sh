@@ -22,7 +22,7 @@ while [ "$i" -ne "$number" ]; do
   echo -n "$(($i+1)) "
   raspistill -r -ss $exp -ISO 400 --mode 2 -w 2024 -h 1520 -o image.jpg
   ./dcraw -6 -T image.jpg && convert -flip -resize 2024 image.tiff image.fits
-  mv image.fits /home/astroberry/RasACam/als_jobs/scan
+  mv image.fits ~/RasACam/als_jobs/scan
   i=$(($i+1))
 done
 zenity --warning --width=300 --height=150 --text="E N D  O F  S E Q U E N C E"

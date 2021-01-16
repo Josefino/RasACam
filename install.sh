@@ -23,6 +23,7 @@ fi
 cd /home/astroberry && pwd
 mkdir -m 777 -p RasACam/als/scan/
 mkdir -m 777 RasACam/als/work/
+chmod +x foc.sh pichr.sh picraw.sh
 
 mv /home/astroberry/Downloads/RasACam/*.* /home/astroberry/RasACam/
 
