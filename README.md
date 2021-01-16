@@ -31,7 +31,7 @@ executive program to "als". You can download it fro github: https://github.com/g
 Running RsACam:
 Switch to the RasACam directory and run the command in the terminal
 "python3 cam.py", which launches the RasACam GUI and the ALS program. In the ALS program
-set the path to the working folder als_jobs / scan and / work.
+set the path to the working folder als_jobs/scan and als_jobs/work.
 
 ----------------------------
 Use the following scripts for manual control:
