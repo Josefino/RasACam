@@ -20,17 +20,17 @@ The first functional application
 ---------------------------------
 Installation:
 1. Unzip the downloaded RasACam.zip file in the Downloads folder. You can run the script
-"./rasacam.sh", which creates the RasACam, als, scan and work directories and copies them all
+"./rasacam.sh", which creates folder RasACam, als, scan and work directories and copies them all
 unzipped files to the RasACam directory. In second step installs DCRAW
 with the necessary libraries and it installs ImageMagick. You need manual install VLC player.
 
-2. Download software ALS to RasACam folder, unzip and rename folder to "als" and also
-executive program to "als". You can download it fro github: https://github.com/gehelem/als
+2. Download software ALS to RasACam folder, unzip and rename folder to "als_jobs" and also
+executive program to "als". You can download it from: https://als-app.org/nightlies/latest/
 
 --------------------------
 Running RsACam:
-Switch to the RasACam directory and run the command in the terminal
-"python3 cam.py", which launches the RasACam GUI and the ALS program. In the ALS program
+Switch to the RasACam directory and run the command in the terminal ./rasacam.sh, 
+which launches the RasACam GUI and the ALS program. In the ALS program
 set the path to the working folder als_jobs/scan and als_jobs/work.
 
 ----------------------------
