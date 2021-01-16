@@ -23,15 +23,21 @@ fi
 cd /home/astroberry && pwd
 mkdir -m 777 -p RasACam/als/scan/
 mkdir -m 777 RasACam/als/work/
+
+# Set script to run mode
 chmod +x foc.sh pichr.sh picraw.sh
 
+# Install module guizero
+sudo pip3 install guizero
+
+# Move folder RasACam
 mv /home/astroberry/Downloads/RasACam/*.* /home/astroberry/RasACam/
 
 # Install ImageMagick
-#sudo apt-get install imagemagick
+sudo apt-get install imagemagick
 
 # Instal DCRAW
-#sudo apt-get install libjasper-dev libjpeg8-dev gettext liblcms2-dev
-#./buildme
+sudo apt-get install libjasper-dev libjpeg8-dev gettext liblcms2-dev
+./buildme
 
 
