@@ -5,7 +5,7 @@
 #	This script and RasACam are free software; you can redistribute it and
 #	modify it under the terms of the GNU General Public
 
-echo "Welcome to instalation RasACam for Raspberry Pi" 
+echo -e "\033[1;33mWelcome to instalation RasACam for Raspberry Pi\033[m" 
 
 #if [ "$(whoami)" != "root" ]; then
 #	echo "Please run this script with sudo.  Exiting now."
