@@ -41,7 +41,7 @@ Use the following scripts for manual control:
 ./foc.sh x, where x is equal to 0 at full resolution, or 1, for ROI 0.25x.
 
 Example:
-./foc.sh 0 is a standard FOV resolution of 640x480 pix video in VLC
+./foc.sh 0 is a standard FOV resolution of 640x480 pix video in VLC;
 ./foc.sh 1 is a 1/4 standard FOV of the camera from the center of the field.
 
 2. To take pictures of the sky, first start the program ./als (found in
@@ -51,7 +51,7 @@ folder "als"), where we set the necessary parameters and start alignment
 x is the number of exposures and y is the duration of the exposure in seconds.
 
 Example:
-./pichr.sh 10 10 means resolution 2028x1520 pix, number of frames 10, exposure 10s
+./pichr.sh 10 10 means resolution 2028x1520 pix, number of frames 10, exposure 10s;
 ./picraw.sh 10 10 means resolution 4056x3040 pix, number of pictures 10, exposure 10s
 
 4. After starting, the individual images in the als program and the resulting ones will start to compose
