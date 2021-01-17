@@ -11,7 +11,7 @@ try:
     camera = picamera.PiCamera()
     camera.resolution = (640, 480)
     camera.zoom = (0.35, 0.35, 0.25, 0.25)
-    camera.framerate = 16
+    camera.framerate = 32
     camera.iso = 800
     camera.brightness = 55
     # Start a preview and let the camera warm up
