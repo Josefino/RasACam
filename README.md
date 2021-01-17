@@ -22,7 +22,8 @@ Installation:
 1. Unzip the downloaded RasACam.zip file in the Downloads folder. You can run the script
 "./install.sh", which creates folder RasACam, als, scan and work directories and copies them all
 unzipped files to the RasACam directory. In second step installs DCRAW with the necessary 
-libraries and it installs ImageMagick. You need manual install VLC player.
+libraries and it installs ImageMagick, if you do not have a VLC player installed, you 
+must install it manually, sudo apt install -y vlc
 
 2. Download software ALS (for RPi) to Downloads folder, unzip and rename folder als-0.7-dev-xxxxxxx 
 to "als" and also executive program als-0.7-dev-xxxxxxx to "als". 
