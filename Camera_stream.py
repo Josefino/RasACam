@@ -10,7 +10,7 @@ connection = client_socket.makefile('wb')
 try:
     camera = picamera.PiCamera()
     camera.resolution = (640, 480)
-    camera.framerate = 16
+    camera.framerate = 32
     camera.iso = 800
     camera.brightness = 55
     # Start a preview and let the camera warm up
