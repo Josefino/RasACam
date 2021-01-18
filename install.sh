@@ -24,8 +24,9 @@ cd /home/astroberry && pwd
 mkdir -m 777 -p RasACam/als/scan/
 mkdir -m 777 RasACam/als/work/
 
-# Set script to run mode
+# Set script and ALS to run mode
 chmod +x foc.sh pichr.sh picraw.sh
+chmod +x Downloads/als/als
 
 # Install module guizero
 sudo pip3 install guizero
