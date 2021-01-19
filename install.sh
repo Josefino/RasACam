@@ -38,7 +38,10 @@ mv /home/astroberry/Downloads/RasACam/*.* /home/astroberry/RasACam/
 sudo apt-get install imagemagick
 
 # Install DCRAW
+git clone https://github.com/6by9/dcraw
+cd /home/astroberry/dcraw && pwd
 sudo apt-get install libjasper-dev libjpeg8-dev gettext liblcms2-dev
 ./buildme
+mv /home/astroberry/dcraw/dcraw /home/astroberry/RasACam/
 
 
