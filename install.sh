@@ -44,4 +44,4 @@ sudo apt-get install libjasper-dev libjpeg8-dev gettext liblcms2-dev
 ./buildme
 mv /home/astroberry/dcraw/dcraw /home/astroberry/RasACam/
 
-
+echo -e "\033[1;33mEnd of installation RasACam for Raspberry Pi\033[m"
