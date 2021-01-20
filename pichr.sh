@@ -17,7 +17,7 @@ exp=$(($exp * 1000000))
 i=0
 while [ "$i" -ne "$number" ]; do
   echo -n "$(($i+1)) "
-  raspistill -ss $exp -ISO 100 --mode 2 -w 2024 -h 1520 -o image2.jpg
+  raspistill -n -ss $exp -ISO 100 --mode 2 -w 2024 -h 1520 -o image2.jpg
   convert -flip image2.jpg image2.fits
   mv image2.fits /home/astroberry/RasACam/als_jobs/scan
   i=$(($i+1))
