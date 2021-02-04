@@ -30,11 +30,11 @@ if b == "a22023": #RPi 3
 elif b == "a020d3": # RPi3
     c = 430
 elif b == "b03111": #RPi 4
-    c = 550
+    c = 380
 elif b == "b03112": #RPi 4
-    c = 550
+    c = 380
 elif b == "b03114": #RPi 4
-    c = 550
+    c = 380
 
 
 a = str(sys.argv[2])
