@@ -21,7 +21,7 @@ i=0
 while [ "$i" -ne "$number" ]; do
   echo -n "$(($i+1)) "
   raspistill -n -r -ss $exp -ISO 400 -w 2024 -h 1520 -o image.jpg
-  ./dcraw -6 -T image.jpg && convert -flip -resize 2024 image.tiff image.fits
+  ./dcraw -4 -T image.jpg && convert -flip -resize 2024 image.tiff image.fits
   mv image.fits ~/RasACam/als_jobs/scan
   i=$(($i+1))
 done
